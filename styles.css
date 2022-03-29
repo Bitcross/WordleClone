@@ -5,6 +5,25 @@
 	font-family: Arial;
 }
 
+#logo {
+	display: grid;
+	justify-content: center;
+	align-content: center;
+	flex-grow: 0.2;
+	grid-template-columns: repeat(6, 4em);
+	grid-template-rows: repeat(1, 4em);
+	gap: .25em;
+}
+
+.oddLogoTile {
+	animation: dance 500ms ease-in-out;
+}
+
+.evenLogoTile {
+	animation: dance 500ms ease-in-out;
+	animation-direction: reverse;
+}
+
 body {
 	background-color: hsl(240, 3%, 7%);
 	display: flex;

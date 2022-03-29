@@ -8,6 +8,14 @@
     <title>Wordle</title>
 </head>
 <body>
+    <div id="logo">
+        <div class="tile oddLogoTile" data-state="correct"">W</div>
+        <div class="tile evenLogoTile" data-state="wrong-location">O</div>
+        <div class="tile oddLogoTile" data-state="wrong">R</div>
+        <div class="tile evenLogoTile" data-state="wrong">D</div>
+        <div class="tile oddLogoTile" data-state="correct">L</div>
+        <div class="tile evenLogoTile" data-state="wrong-location">E</div>
+    </div>
     <div class="alert-container" data-alert-container></div>
     <div data-guess-grid class="guess-grid">
         <div class="tile"></div>
