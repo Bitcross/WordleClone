@@ -15360,7 +15360,7 @@ function deleteKey() {
 	if (lastTile == null) return
 	lastTile.textContent = ''
 	delete lastTile.dataset.state
-	delete lastTile.dataset.key
+	delete lastTile.dataset.letter
 }
 
 function submitGuess() {
